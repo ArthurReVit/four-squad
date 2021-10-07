@@ -1,0 +1,146 @@
+/* Header styles */
+
+/* Small */
+
+.site-header-small {
+  align-items: center;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.site-header-small .header-logo-wrapper {
+  display: none;
+}
+
+/* Extended */
+
+.site-header-extended {
+  background-image: url("../../../img/bg-min.png");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: -550px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  width: 100%;
+}
+
+.site-header-extended .header-nav {
+  align-items: center;
+  height: 10vh;
+}
+
+.site-header-extended .header-logo-wrapper {
+  align-items: center;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.site-header-extended .header-logo-wrapper img {
+  width: 280px;
+}
+
+.site-header-test {
+  background: rebeccapurple;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+/* Mobile */
+
+.mobile-site-header-small {
+  width: 100%;
+  height: 10vh;
+}
+
+.mobile-header-wrapper {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-between;
+  padding: 0 5vw;
+  width: 100%;
+}
+
+.mobile-header-logo {
+  width: 30vw;
+}
+
+.mobile-header-menu-button {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8vh;
+  padding: 0.8vh;
+}
+
+.mobile-header-menu-button-active {
+  background: #fff;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8vh;
+  padding: 0.8vh;
+}
+
+.mobile-header-menu {
+  background: #333333;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+/* Footer styles */
+
+.site-footer {
+  align-items: center;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  height: 10vh;
+  justify-content: space-between;
+  padding: 0 5vw;
+  width: 100%;
+}
+
+.footer-logo {
+  width: 10vw;
+}
+
+@media screen and (max-width: 1200px) {
+  /* Header styles */
+
+  .desktop-header {
+    display: none;
+  }
+
+  /* Footer styles */
+
+  .site-footer {
+    justify-content: center;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  /* Header styles */
+
+  .mobile-site-header-small {
+    display: none;
+  }
+}

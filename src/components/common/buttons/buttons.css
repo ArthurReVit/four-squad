@@ -1,0 +1,87 @@
+/* HeaderLink styles */
+
+.header-link {
+  color: #a9a9a9;
+  font-family: "Glory", sans-serif;
+  font-size: 2.4vh;
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+/* CommonButton styles */
+
+.common-button {
+  background: #02a7f0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8vh;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 7px 0;
+  min-width: 150px;
+}
+
+.common-button:hover {
+  background: #0095d4;
+}
+
+.common-button:active {
+  background: #02b3ff;
+}
+
+/* TabButton styles */
+
+.tab-button {
+  background: #02a7f0;
+  color: #fff;
+  cursor: pointer;
+  height: 5vh;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8vh;
+  font-weight: bold;
+  width: 100%;
+}
+
+.tab-button-active {
+  background: #f5f5f5;
+  color: #000;
+  height: 5vh;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8vh;
+  font-weight: bold;
+  width: 100%;
+}
+
+/* Variant props styles */
+
+/* Margin */
+
+.margin-top {
+  margin-top: 2vh;
+}
+
+@media screen and (max-width: 1200px) {
+  /* HeaderLink styles */
+
+  .header-link {
+    border-bottom: 0.5px solid #555555;
+    border-top: 0.5px solid #555555;
+    display: block;
+    padding: 1.5vh 0;
+    text-align: center;
+    width: 100vw;
+  }
+
+  /* CommonButton styles */
+
+  .common-button {
+    min-width: 130px;
+  }
+}

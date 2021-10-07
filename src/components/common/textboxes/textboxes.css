@@ -1,0 +1,10 @@
+/* CommonTextbox styles */
+
+.common-textbox {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2vh;
+}
+
+.margin-bottom {
+  margin-bottom: 2vh;
+}

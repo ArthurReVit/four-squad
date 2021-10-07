@@ -1,0 +1,13 @@
+/* Doodle styles */
+
+.doodle {
+  height: 5vw;
+  width: 5vw;
+}
+
+@media screen and (max-width: 1200px) {
+  .doodle {
+    height: 15vw;
+    width: 15vw;
+  }
+}

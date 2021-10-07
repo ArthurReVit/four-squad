@@ -1,0 +1,31 @@
+/* Texfield styles */
+
+.textfield {
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8vh;
+  margin-top: 2vh;
+  padding: 8px 5px;
+  width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* TextArea styles */
+
+.textarea {
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8vh;
+  height: 14vh;
+  margin-top: 2vh;
+  padding: 8px 5px;
+  resize: none;
+  width: 100%;
+}

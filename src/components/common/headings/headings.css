@@ -1,0 +1,21 @@
+/* MainHeading styles */
+
+.main-heading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.7vh;
+  font-weight: bold;
+}
+
+/* Variant props styles */
+
+/* Margin */
+
+.margin-top {
+  margin-top: 2vh;
+}
+
+/* Color */
+
+.light {
+  color: #fff;
+}

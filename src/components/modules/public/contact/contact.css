@@ -1,0 +1,55 @@
+/* Contact styles */
+
+.contact-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  height: 65vh;
+  justify-content: space-between;
+  padding: 5vh 5vw;
+  width: 100%;
+}
+
+/* ContactInterest styles */
+
+.contact-interest-wrapper {
+  height: 100%;
+  width: 48%;
+}
+
+.interest-navbar {
+  display: flex;
+}
+
+/* ContactForm styles */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 48%;
+}
+
+@media screen and (max-width: 1200px) {
+  /* Contact styles */
+
+  .contact-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* ContactInterest styles */
+
+  .contact-interest-wrapper {
+    display: none;
+  }
+
+  /* ContactForm styles */
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 98%;
+  }
+}

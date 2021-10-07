@@ -1,0 +1,7 @@
+/* MainDivider styles */
+
+.main-divider {
+  border: 3px solid #02a7f0;
+  margin: 1vh 0;
+  width: 60%;
+}

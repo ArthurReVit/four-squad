@@ -1,0 +1,20 @@
+/* Services styles */
+
+.services-wrapper {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100%;
+  justify-content: space-between;
+  padding: 0 5vw;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .services-wrapper {
+    flex-direction: column;
+    min-height: 100vh;
+    height: auto;
+  }
+}
